@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-400">
+
+    <h1 class="text-5xl text-center mt-4 font-bold">Discount Calculator</h1>
+
+    <div class="flex items-center flex-col mt-20 gap-y-6 border-solid border-4 rounded-xl  border-gray-600 py-9 mb-3">
+        <h2 class="text-4xl font-semibold">Price: $<span id="product-price">500</span></h2>
+        <button
+            class=" text-white bg-transparent hover:bg-purple-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded "
+            id="btn-primary">Calculate</button>
+
+        <input id="coupon-field" class="rounded-lg" type="text" placeholder="Enter Coupon Code">
+        <button id="btn-discount"
+            class=" text-white bg-transparent hover:bg-rose-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ">Discount</button>
+    </div>
+
+
+
+    <!-- <script src="JS/utilities.js"></script> -->
+    <script src="JS/Discount.js"></script>
+</body>
+
+</html>
